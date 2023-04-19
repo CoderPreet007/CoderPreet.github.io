@@ -9,6 +9,19 @@ menuIcon.addEventListener('click', () => {
     navbar.classList.toggle('active');
 });
 
+/* ============= Read More button active link =============*/
+function toggleAdditionalContent() {
+  var additionalContent = document.getElementById("additional-content");
+  if (additionalContent.style.display === "none") {
+    additionalContent.style.display = "block";
+  } else {
+    additionalContent.style.display = "none";
+  }
+}
+var readMoreButton = document.getElementById("read-more-button");
+readMoreButton.addEventListener("click", toggleAdditionalContent);
+
+
 /* ============= scroll sections active link =============*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
