@@ -19,8 +19,11 @@ function toggleAdditionalContent(event) {
     additionalContent.style.display = "none";
   }
 }
-var ReadMoreButton = document.getElementById("Read More");
-ReadMoreButton.addEventListener("click", toggleAdditionalContent);
+document.addEventListener("DOMContentLoaded", function() {
+  var readMoreButton = document.getElementById("Read More");
+  readMoreButton.addEventListener("click", toggleAdditionalContent);
+});
+
 
 
 /* ============= scroll sections active link =============*/
