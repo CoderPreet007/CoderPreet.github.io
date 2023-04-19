@@ -10,7 +10,8 @@ menuIcon.addEventListener('click', () => {
 });
 
 /* ============= Read More button active link =============*/
-function toggleAdditionalContent() {
+function toggleAdditionalContent(event) {
+  event.preventDefault();
   var additionalContent = document.getElementById("additional-content");
   if (additionalContent.style.display === "none") {
     additionalContent.style.display = "block";
