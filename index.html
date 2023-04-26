@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+
+	<!-- box icons ---->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<!-- Link to CSS stylesheet -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- header design -->
+	<header class="header">
+		<a href="#" class="logo">Portfolio</a>
+
+		<i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+			<a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+			<a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+	</header>
+
+	<!-- home section design -->
+	<section class="home" id="home">
+		<div class="home-content">
+			<h3>Hello, It's Me</h3>
+			<h1>Preet Patel</h1>
+			<h3>And I'm a <span class="multiple-text"></span></h3>
+			<p>The goal is to turn data into information, and information into insight </p>
+			<div class="social-media">
+				<a href="#"><i class='bx bxl-facebook' ></i></a>
+				<a href="#"><i class='bx bxl-twitter' ></i></a>
+				<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+				<a href="#"><i class='bx bxl-linkedin' ></i></a>
+			</div>
+			<a href="#"  class="btn">Download Resume</a>
+		</div>
+
+		<div class="home-img">
+			<img src="images/home.png" alt="" class="float-right">
+
+		</div>
+
+	</section>
+
+	<!-- About section design-->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="images/about.png" alt="">
+		</div>
+		
+		<div class="about-content">
+			<h2 class="heading">About <span>Me</span></h2>
+				<h3>Data Analyst!</h3>	
+				<p>Welcome to my Data Analysis portfolio website. </p>
+			<!--a href="#" class="btn">Read More</a-->
+			<button id="read-more-button" class="btn">Read More</button>
+			<div id="additional-content" style="display: none;">
+				<p>I am a passionate data analyst with a strong background in Mathematics.</p>
+				<p>With a love for numbers and an eye for detail, I thrive on discovering insights from complex data sets that help drive business decisions.</p>
+				<p>As a data analyst, I specialize in <strong>Financial Analysis</strong>, using tools such as <strong>SQL, Python, Excel, Tableau, Power BI </strong> to turn raw data into meaningful insights. I am well-versed in data visualization, data cleaning, and data modeling, and I am always seeking to expand my skillset.</p>
+				<p>During my studies, I gained hands-on experience working on projects that involved analyzing data, which allowed me to apply my knowledge in a real-world setting.</p>
+				<p>Aside from my technical skills, I am also an effective communicator, able to explain complex data analysis concepts to both technical and non-technical audiences. I am a team player and thrive in collaborative environments, where I can learn from my colleagues while contributing my expertise.</p>
+				<p>Thank you for visiting my portfolio website, and I hope you enjoy exploring my work. If you have any questions or would like to discuss potential projects, please do not hesitate to reach out. </p>
+		  </div>
+		</div>
+	</section>
+
+	<!-- service section design -->
+	<section class="services" id="services">
+		<h2 class="heading">Our <span> Services</span></h2>
+
+		<div class="services-container">
+			<div class="services-box">
+				<i class='bx bxs-paint'></i>
+					<h3>Data Analysis and Visualization</h3>
+					<p>---</p>
+				<a href="#" class="btn">Read More</a>
+			</div>	
+
+			<div class="services-box">
+				<i class="bx bx-bar-chart-alt"></i>
+					<h3>Website Development</h3>
+					<p>---</p>
+				<a href="#" class="btn">Read More</a>
+			</div>
+
+			<div class="services-box">
+				<i class="bx bx-bar-chart-alt"></i>
+					<h3>Data Modeling</h3>
+					<p>---</p>
+				<a href="#" class="btn">Read More</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- portfolio section design -->
+	<section class="portfolio" id="portfolio">
+		<h2 class="heading">Latest <span> Projects</span></h2>
+
+		<div class="portfolio-container">
+			<div class="portfolio-box">
+				<img src="images/portfolio1.png" alt="">
+				<div class="portfolio-layer">
+					<h4>Website Development</h4>
+					<p>---</p>
+					<a href="#"><i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="images/portfolio2.png" alt="">
+				<div class="portfolio-layer">
+					<h4>Website Development</h4>
+					<p>---</p>
+					<a href="#"><i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="images/portfolio3.png" alt="">
+				<div class="portfolio-layer">
+					<h4>Website Development</h4>
+					<p>---</p>
+					<a href="#"><i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="images/portfolio4.png" alt="">
+				<div class="portfolio-layer">
+					<h4>Unfair 2D Platformer Game</h4>
+					<p>A platform game inspired by Mario and Trap Adventure 2. 
+						Can you complete the level without triggering the hidden traps?.</p>
+					<a href="#"><i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="images/portfolio5.png" alt="">
+				<div class="portfolio-layer">
+					<h4>Play Chess with AI</h4>
+					<p>With a framework that can refer to as the Tree Search problem, AI considers the current positions of chess pieces on the board. An algorithm dictates the next set of actions.</p>
+					<a href="#"><i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+
+			<div class="portfolio-box">
+				<img src="images/portfolio6.png" alt="">
+				<div class="portfolio-layer">
+					<h4>Website Development</h4>
+					<p>---</p>
+					<a href="#"><i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Contact section design-->
+	<section class="contact" id="contact">
+		<h2 class="heading">Contact <span>Me!</span></h2>
+
+		<!-- Include a contact form or your contact information -->
+		<form action="#">
+			<div class="input-box">
+				<input type="text" placeholder="Full Name">
+				<input type="email" placeholder="Email Address">
+			</div>
+			<div class="input-box">
+				<input type="number" placeholder="Mobile Number">
+				<input type="text" placeholder="Email Subject">
+			</div>
+			<textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+			<input type="submit" value="Send Message" class="btn">
+		</form>
+	</section>
+
+	<!-- footer design -->
+
+	<footer class="footer">
+		<div class="footer-text">
+			<p> Copyright &copy; 2023 by Preet | All Rights Reserved. </p>
+		</div>
+
+		<div class="footer-iconTop">
+			<a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+		</div>
+
+	</footer>
+
+	<!-- scroll reveal -->
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!-- typed js -->
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	
+	
+	<!-- custom js -->
+	<script src ="script.js"></script>
+</body>
+
+</html>
+
+
